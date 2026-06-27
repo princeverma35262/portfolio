@@ -14,7 +14,7 @@ This portfolio website showcases my projects, technical skills, certifications, 
 * Project Portfolio
 * Resume Download
 * Contact Form
-* Social Media Links
+
 
 ## Technologies Used
 
