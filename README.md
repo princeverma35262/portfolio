@@ -30,6 +30,6 @@ https://github.com/princeverma35262/Personal-Portfolio-
 
 Anuj Kumar
 
-GitHub: https://github.com/aanujml
-LinkedIn:www.linkedin.com/in/iaanuj
+GitHub: https://github.com/princeverma35262/portfolio.git
+LinkedIn:https://www.linkedin.com/in/prince-verma-357345327
 Portfolio:https://github.com/princeverma35262/Personal-Portfolio-
