@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font lib-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>persnol portfolio website</title>
+</head>
+<body>
+<!--header-->
+    <header class="header">
+       <a href="#" class="logo">Portfolio</a>
+       <i class="fa-solid fa-bars" id="menu-icon"></i>
+       <nav class="navbar">
+           
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+<!--home-->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h3>Hi, I am</h3>
+            <h1>Prince Verma</h1>
+            <h3>And I'm a <span class="multiple-text"> </span></h3>
+            <p>I am a B.Tech IT student who enjoys transforming ideas into practical
+            applications through programming, innovation, and problem-solving.</p>
+            <div class="social-media">
+               <a href="https://www.linkedin.com/in/prince-verma-357345327" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            
+            </div>
+            <a href="prince_updated_resume.pdf"  target="_blank" class="btn">View Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="img/portfolio.jpeg" alt="">
+        </div>
+    </section>
+
+<!--about-->
+      <section class="about" id="about">
+        <div class="skill-orbit">
+
+<div class="center">IT</div>
+
+    <div class="skill python"><i class="fa-brands fa-python"></i></div>
+    <div class="skill sql"><i class="fa-solid fa-chart-line"></i></div>
+    <div class="skill ml"><i class="fa-solid fa-robot"></i></div>
+    <div class="skill data"><i class="fa-solid fa-database"></i></div>
+    <div class="skill html"><i class="fa-brands fa-html5"></i></div>
+    <div class="skill js"><i class="fa-brands fa-react"></i></div>
+
+</div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>IT Engineer</h3>
+            <p>I am an aspiring IT Engineer and a B.Tech student with a strong interest in Data Analyst and Software Development. 
+                <br>
+            I enjoy creating projects, learning new technologies, and applying my knowledge to solve practical problems. <br>
+            My goal is to build innovative IT solutions and grow as a technology professional.</p>
+            <a href="#portfolio" class="btn">View Projects</a>
+        </div>
+      </section>
+<!--services-->
+       <section class="services" id="services">
+          <h2 class="heading">My <span>Services</span></h2>
+          <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developer</h3>
+                <p>Build responsive and user-friendly websites using HTML, CSS and JavaScript. Focused on creating clean designs and smooth user experiences.</p>
+              
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-brain"></i>
+                <h3>IT Engineer</h3>
+                <p>IT engineer exploring various technologies and applications. Focused on learning, building projects, and gaining practical experience.</p>
+              
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Analyst</h3>
+                <p>Analyze, clean and visualize data using Python, SQL, Excel, and Power BI. Skilled in EDA, data cleaning, and transforming raw data into meaningful insights for better decision-making.</p>
+                
+            </div>
+            
+          </div>
+        <div class="services-btn">
+        <a href="#portfolio" class="btn">View My Projects</a>
+        </div>
+       </section>
+
+ <!--portfolio-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">
+               My <span>Projects</span>
+            </h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="img/prince3.jpeg" alt="">
+                    <div class="portfolio-layer">
+                       <h4>Personal Portfolio Website</h4>
+                       <p>Responsive personal portfolio website built using HTML, CSS and JavaScript to showcase my skills, projects and contact information.</p>
+                        <a href="https://github.com/princeverma35262/portfolio.git" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+                  
+                
+                <div class="portfolio-box">
+                    <img src="img/prince2.jpeg" alt="">
+                    <div class="portfolio-layer">
+                       <h4>Data Analysis app</h4>
+                       <p>A web application for analyzing and visualizing data using Python, SQL, and Power BI.</p>
+                       <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="img/prince1.jpeg" alt="">
+                    <div class="portfolio-layer">
+                       <h4> Whatsapp clone</h4>
+                       <p>A web application that mimics the functionality of WhatsApp, allowing users to send messages and share media.</p>
+                       <a href="">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+             </div>
+
+        </section>
+<!--contact-->
+         <section class="contact" id="contact">
+            <h2 class="heading">
+                Contact <span>Me</span>
+                
+            </h2>
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+               <input type="hidden" name="access_key" value="aef543c7-13be-44fd-8bd8-8ec1e884f276">
+            
+               <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                   <input type="number" name="phone" placeholder="Mobile Number" required>
+                   <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+
+                 <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <p id="success-message" style="display:none; color:#00ff99;">
+                Thanks for connecting with me!
+            </p>
+            <p id="error-message" style="display:none; color:#ff4d4d;">
+               Oops! Something went wrong. Please try again later.
+            </p>
+         </section> 
+
+<!--Footer-->
+    <footer class="footer">
+        <div class="footer-text">
+           <p>© 2026 Prince Verma | Designed & Developed with Passion</p>
+        </div>
+         <div class="footer-iconTop">
+            <a href="#home" ><i class="fa-solid fa-angle-up"></i></a>
+         </div>
+    </footer>
+<!--scroll JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+<!--Typed JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!--Main JS-->
+    <script src="main.js"></script>
+</body>
+</html>
