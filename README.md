@@ -33,4 +33,4 @@ GitHub: https://github.com/princeverma35262/portfolio.git
 
 LinkedIn:https://www.linkedin.com/in/prince-verma-357345327
 
-Portfolio:https://github.com/princeverma35262/Personal-Portfolio-
+Portfolio:https://princeverma35262.github.io/portfolio/
